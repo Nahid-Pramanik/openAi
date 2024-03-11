@@ -66,7 +66,7 @@ const displayAiDetails = (aiDetais) => {
             <h3 class="bg-white p-4 rounded-lg font-medium text-orange-600">${aiDetais.pricing ? aiDetais.pricing[1].price : 'No need Price'}</h3>
             <h3 class="bg-white p-4 rounded-lg font-medium text-red-600">${aiDetais.pricing ? aiDetais.pricing[2].price : 'No need Price'}</h3>
         </div>
-        <div class="flex justify-between">
+        <div class="md:flex lg:flex justify-between text-center md:text-left lg:text-left">
             <div>
                 <h2 class="text-xl font-medium mb-2">Features</h2>
                 <p  class="text-base mb-1">${aiDetais.features ? aiDetais.features[1].feature_name : "No Feature Available"}</p>
