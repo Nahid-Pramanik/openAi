@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="pght">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Universe Hub</title>
+    <pnk href="https://cdn.jsdepvr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome pnk -->
+    <script src="https://kit.fontawesome.com/d1f67e7eb2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="">
+
+    <!-- header part start -->
+    <header>
+        <div class="text-center my-5">
+            <h1 class="text-2xl font-medium">AI Universe Hub</h1>
+            <button class="text-xl font-normal btn bg-red-600 text-white mt-3 p-3 rounded-lg">Sort By Date</button>
+        </div>
+    </header>
+    <!-- header part end -->
+
+
+    <main>
+        <div>
+            <!-- card part start -->
+            <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-5">
+
+            </div>
+
+            <!-- card part end -->
+
+            <!-- show more button start -->
+            <div id="show-more-btn" class="text-center hidden">
+                <button class="text-xl font-normal btn bg-red-600 text-white my-5 p-3 rounded-lg">See More</button>
+            </div>
+            <!-- show more button end -->
+
+            <!-- modal part start -->
+            <!-- You can open the modal using ID.showModal() method -->
+            <dialog id="my_modal_3" class="modal w-3/4 rounded-xl">
+                <div class="modal-box">
+                    <form method="dialog">
+                        <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+                    <div id="ai-modal-body" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-between gap-5 p-14 ">
+
+                    </div>
+                </div>
+            </dialog>
+            <!-- modal part end -->
+        </div>
+    </main>
+
+    <!-- js pnk -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
